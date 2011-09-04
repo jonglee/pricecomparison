@@ -1,0 +1,59 @@
+#California Mapping
+#number of SQ companies
+sq.companies=10
+
+#Genworth
+sq.company.0=Genworth
+sq.company.0.color=fuchsia
+
+#Chase
+#sq.company.1=Chase Insurance
+#sq.company.1.color=aqua
+
+#Empire General
+#sq.company.2=Empire General
+#sq.company.2.color=#FF99CC
+
+#Transamerica
+sq.company.1=Transamerica
+sq.company.1.color=yellow
+
+#Protective
+#sq.company.2=Protective
+#sq.company.2.color=#FF6600
+
+#Fidelity
+sq.company.2=Fidelity
+sq.company.2.color=#FF6600
+
+#Banner
+sq.company.3=Banner
+sq.company.3.color=lime
+
+#Liberty
+sq.company.4=Liberty
+sq.company.4.color=#CC99FF
+
+#American General
+sq.company.5=American General
+sq.company.5.color=#FFCC99
+
+#United of Omaha
+sq.company.6=United of Omaha
+sq.company.6.color=#3366FF
+
+#Travelers
+#sq.company.7=Travelers
+#sq.company.7.color=#CCFF99
+
+#Prudential
+sq.company.7=Pruco
+sq.company.7.color=#FF99CC
+
+#West Coast
+sq.company.8=West Coast
+sq.company.8.color=#FF99CC
+
+#ReliaStar
+sq.company.9=ReliaStar
+sq.company.9.color=aqua

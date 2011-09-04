@@ -1,0 +1,35 @@
+#New York Mapping
+#number of SQ companies
+sq.companies=6
+
+#Genworth
+sq.company.0=Genworth
+sq.company.0.color=fuchsia
+
+#Chase
+#sq.company.1=Chase Insurance
+#sq.company.1.color=aqua
+
+#Lincoln
+#sq.company.1=Lincoln
+#sq.company.1.color=yellow
+
+#Fidelity
+sq.company.1=Fidelity
+sq.company.1.color=#FF6600
+
+#William Penn
+sq.company.2=William Penn
+sq.company.2.color=lime
+
+#Pruco
+sq.company.3=Pruco
+sq.company.3.color=#FF99CC
+
+#Transamerica Financial
+sq.company.4=Transamerica Financial
+sq.company.4.color=yellow
+
+#ReliaStar
+sq.company.5=ReliaStar
+sq.company.5.color=aqua

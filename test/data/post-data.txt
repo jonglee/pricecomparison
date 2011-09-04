@@ -1,0 +1,14 @@
+Parameter Name	Value
+ErrOnMissingZipCode	ON
+State	0
+ZipCode	94806
+Sex	M
+BirthMonth	6
+Birthday	15
+BirthYear	1967
+Smoker	N
+Health	PP
+Category	D:30
+ModeUsed	A
+FaceAmount	500000
+CompRating	4

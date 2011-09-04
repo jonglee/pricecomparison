@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!--
+this ant build file can be re-run with the following command if Ant is installer locally
+> ant -buildfile create-installer.xml
+-->
+<!--  this file is creates an installer for the Project Price Comparison -->
+<project name="Create Price Comparison Installer" default="MakeNonExtractor" basedir=".">
+
+    <path id="taskdef.cp">
+        <pathelement location="ant-installer-0.8/lib/ant-installer-ext.jar"/>
+        <pathelement location="ant-installer-0.8/lib/ant-installer.jar"/>
+    </path>
+    <taskdef
+            name="installer"
+            classname="org.tp23.antinstaller.taskdefs.Installer"
+            classpathref="taskdef.cp"/>
+
+    <property name="PROJECT_VERSION" value="2.0"/>
+
+
+    <property name="ANT_INSTALL_ROOT" value="ant-installer-0.8"/>
+    <property name="PROJECT_NAME" value="Price Comparison"/>
+    <property name="PROJECT_SHORT_NAME" value="price-comparison"/>
+    <property name="PROJECT_ROOT" value="."/>
+    <property name="PROJECT_LIB" value="../lib"/>
+    <property name="PROJECT_BIN" value="../bin"/>
+    <property name="PROJECT_TEMPLATE" value="../template"/>
+    <property name="PROJECT_CONFIG" value="../config"/>
+    <property name="PROJECT_CLASSES" value="../build/production"/>
+    <property name="PROJECT_IMAGES" value="../images"/>
+    <property name="RELEASE_DIR" value="../release"/>
+
+    <!-- This task only needs to run once it can be deleted once the self-extract files exist on the build host  -->
+    <target name="Base">
+        <echo message="Building NonExtractor runnable jar file"/>
+    </target>
+
+
+    <target name="MakeNonExtractor" depends="Base">
+        <mkdir dir="${RELEASE_DIR}"/>
+
+        <installer file="${RELEASE_DIR}/${PROJECT_SHORT_NAME}-installer-${PROJECT_VERSION}.jar" compress="true"
+                   extractType="NonExtractor"
+                   installConfig="${PROJECT_ROOT}/antinstall-config.xml"
+                   buildFile="${PROJECT_ROOT}/build.xml"
+                   antInstallLib="${ANT_INSTALL_ROOT}/lib"
+                   antLib="${ANT_INSTALL_ROOT}/antlib"
+                   validateConfig="true"
+                   icons="bluecurve">
+
+            <zipfileset dir="${PROJECT_LIB}" prefix="lib">
+                <include name="**/*.jar"/>
+            </zipfileset>
+
+            <zipfileset dir="${PROJECT_BIN}" prefix="bin">
+                <include name="**/*.*"/>
+            </zipfileset>
+
+            <zipfileset dir="${PROJECT_CLASSES}" prefix="build">
+                <include name="**/*"/>
+            </zipfileset>
+
+            <zipfileset dir="${PROJECT_TEMPLATE}" prefix="template">
+                <include name="**/*.*"/>
+            </zipfileset>
+
+            <zipfileset dir="${PROJECT_CONFIG}" prefix="config">
+                <include name="**/*.*"/>
+            </zipfileset>
+
+            <zipfileset dir="${PROJECT_IMAGES}" prefix="images">
+                <include name="**/*.png"/>
+            </zipfileset>
+        </installer>
+    </target>
+
+
+</project>

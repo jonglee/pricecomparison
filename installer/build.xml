@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!--
+This is the build.xml run by AntInstaller for the installer
+-->
+
+<project name="Installation" default="" basedir="${basedir}">
+
+    <target name="default" depends="">
+        <echo message="Createing Installation directory"/>
+        <mkdir dir="${installDir}"/>
+
+
+        <echo message="Installing Scripts files"/>
+        <mkdir dir="${installDir}/bin"/>
+        <unzip src="${antinstaller.jar}" dest="${installDir}">
+            <patternset>
+                <include name="bin/*.bat"/>
+            </patternset>
+        </unzip>
+        <copy todir="${installDir}">
+            <fileset dir="${installDir}/bin">
+                <patternset>
+                    <include name="*.bat"/>
+                </patternset>
+            </fileset>
+        </copy>
+
+
+        <echo message="Installing template files"/>
+        <mkdir dir="${installDir}/template"/>
+        <unzip src="${antinstaller.jar}" dest="${installDir}">
+            <patternset>
+                <include name="template/*.vm"/>
+            </patternset>
+        </unzip>
+
+        <echo message="Installing config files"/>
+        <mkdir dir="${installDir}/config"/>
+        <unzip src="${antinstaller.jar}" dest="${installDir}">
+            <patternset>
+                <include name="config/*.*"/>
+            </patternset>
+        </unzip>
+
+        <echo message="Installing libraries files"/>
+        <mkdir dir="${installDir}/lib"/>
+        <unzip src="${antinstaller.jar}" dest="${installDir}">
+            <patternset>
+                <include name="lib/*"/>
+            </patternset>
+        </unzip>
+
+        <echo message="Installing Class files"/>
+        <mkdir dir="${installDir}/build"/>
+        <unzip src="${antinstaller.jar}" dest="${installDir}">
+            <patternset>
+                <include name="**/*"/>
+            </patternset>
+        </unzip>
+
+        <echo message="Installing images"/>
+        <unzip src="${antinstaller.jar}" dest="${installDir}">
+            <patternset>
+                <include name="images/*.*"/>
+            </patternset>
+        </unzip>
+
+    </target>
+
+    <target name="cleanuptarget" depends="">
+        <delete dir="${installDir}/bin"/>
+        <delete dir="${installDir}">
+            <patternset>
+                <include name="*.txt"/>
+                <include name="*.html"/>
+                <include name="*.xml"/>
+            </patternset>
+        </delete>
+        <delete dir="${installDir}/META-INF"/>
+    </target>
+</project>

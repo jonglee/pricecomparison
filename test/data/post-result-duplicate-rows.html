@@ -1,0 +1,1082 @@
+<HTML>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function getbest (ambest, company, compcode)
+{
+  document.comparisonform.AmBest.value = ambest;
+  document.comparisonform.CompanyName.value = company;
+  document.comparisonform.CompanyCode.value = compcode;
+  document.comparisonform.OnClick=abc=window.open('','reason','width=700,height=500,left=20,top=20,scrollbars=yes');
+  document.comparisonform.target='reason';
+  abc.focus();
+  document.comparisonform.submit();
+}
+-->
+</script>
+
+
+<head>
+  <title>Term4Sale.com Comparison Results</title>
+  <meta name="" content="">
+  <META NAME="Author" CONTENT="Bob Barney">
+  <meta name="" content="">
+  <style>
+  <!--
+       a:hover {text-decoration: none; color:#0000FF}
+  -->
+  </style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#004BFD" alink="#3366FF">
+
+
+<CENTER><H1>COMPULIFE<sup><font size="4">®</font></sup></FONT></FONT>&nbsp;&nbsp;&nbsp;&nbsp; <I><FONT FACE="Arial,Helvetica"><FONT SIZE=+3><FONT COLOR="#0000FF"><B>Term4Sale</B><sup><font size="4">®</font></sup>&nbsp;</CENTER></FONT></FONT></I></FONT>
+</CENTER></FONT></FONT></FONT></FONT></H1>
+
+<p style="font-family:Arial;font-size:83%;color:black"><FONT COLOR="#0000FF"><b>NOTE:</b></FONT></B>&nbsp; The information following the comparison results is important.
+Please read it carefully and check that the
+facts that you gave us were entered correctly.
+There is also information which will help you better
+understand that there are product and company differences that go beyond price.
+If you have questions or need further information about this material
+Term4Sale encourages you to contact licensed life insurance agents who use the
+Compulife term comparison program.
+
+<p style="font-family:Arial;font-size:83%;color:black">And Compulife has made it easier than ever for agents to use our Compulife
+program.  Click here for an important
+<a href="http://www.compulife.cc/price.htm"><font size="2" face="Arial"><b>Price Breakthrough Announcement</b></font></a>
+which Compulife has recently introduced for agents.  It's never been easier for
+an agent to subscribe to Compulife's powerful term comparison software.  If
+your insurance agent is not using Compulife, then here's a list of 3 agents who do:
+
+<FORM name="agentform" action ="newzipcode.cgi" method="POST">
+<INPUT type="hidden" name="ZipCode" value="94806">
+<INPUT type="hidden" name="State" value="5">
+
+<center><p style="font-family:Arial;font-size:83%;color:black"><input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0">
+Click on <INPUT type="submit" value="List of Agents">
+ for the names of 3 Compulife subscribers near you. <input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0"></center>
+
+</FORM>
+
+<HR>
+
+<p style="font-family:Arial;font-size:83%;color:black">
+<FORM name="healthform" action ="newzipcode.cgi" method="POST">
+<INPUT type="hidden" name="ZipCode" value="94806">
+<INPUT type="hidden" name="DoingHealth" value="ON">
+<INPUT type="hidden" name="State" value="5">
+<INPUT type="hidden" name="Birthday" value="15 ">
+<INPUT type="hidden" name="BirthMonth" value="1">
+<INPUT type="hidden" name="BirthYear" value="1979 ">
+<INPUT type="hidden" name="Health" value="PP">
+<INPUT type="hidden" name="FaceAmount" value="50000">
+<INPUT type="hidden" name="Sex" value="M">
+<INPUT type="hidden" name="Smoker" value="N">
+<INPUT type="hidden" name="Category" value="B:20">
+<INPUT type="hidden" name="ModeUsed" value="A">
+<INPUT type="hidden" name="UserLocation" value="">
+
+<center><font color="#FF0000"><font size="5" face="Arial"><b>
+Can you qualify for the premiums in this comparison?</b></font></font><BR>
+<font size="2" face="Arial">If you are prepared to tell us more about your health and lifestyle,<BR>
+we can tell you more about whether the products you see here
+are available to you.<BR>
+<BR><font size="3" face="Arial"><b>Click on <INPUT type="submit" name="InitHealth" value="Health Analyzer">
+to use Compulife's health analysis function </b></font>
+</FORM></center>
+
+
+<p style="font-family:Arial;font-size:83%;color:black">
+
+<FORM name="comparisonform" action="cqsl.cgi" method="POST" BASE TARGET="Detailed">
+<INPUT type="hidden" name="CompanyName">
+<INPUT type="hidden" name="CompanyCode">
+<INPUT type="hidden" name="AmBest">
+<H2>
+<p style="font-family:Arial;font-size:75%;color:black">
+<B><FONT COLOR="#0000FF">Here are your annual  premium comparison results:</FONT></FONT></B></H2>
+
+<p style="font-family:Arial;font-size:83%;color:black">
+<!-- pass some environment variables onto the next page -->
+<INPUT type="hidden" name="State" value="5">
+<INPUT type="hidden" name="Birthday" value="15 ">
+<INPUT type="hidden" name="BirthMonth" value="1">
+<INPUT type="hidden" name="BirthYear" value="1979 ">
+<INPUT type="hidden" name="Health" value="PP">
+<INPUT type="hidden" name="FaceAmount" value="50000">
+<INPUT type="hidden" name="Sex" value="M">
+<INPUT type="hidden" name="Smoker" value="N">
+<INPUT type="hidden" name="Category" value="B:20">
+<INPUT type="hidden" name="ModeUsed" value="A">
+<INPUT type="hidden" name="EmbeddedAccums" value="ON">
+<INPUT type="hidden" name="EmbeddedAccumColor" value="#FF0000">
+<INPUT type="hidden" name="UserLocation" value="">
+<INPUT type="hidden" name="ZipCode" value="94806">
+
+
+<!-- The next line represents the start of a comparison section -->
+<!-- It must be on a line by itself -->
+
+
+<!--The following line defines the format for outputing the company and products, (max length is 400)-->
+<FONT FACE="Arial"><CENTER><TABLE style="border: 1px solid #859AD3;border-collapse:collapse;" cellpadding="0" cellspacing="0" WIDTH="100%" >
+<TR>
+<TD WIDTH="100%" height="30" BGCOLOR="#004080" style="border: 1px solid #859AD3" BGCOLOR="#004080" ><center><font color="#FFFFFF"><B>Guaranteed 10 Year Level Term</B></font></center></TD>
+</TABLE></CENTER>
+
+<CENTER><TABLE style="border: 1px solid #859AD3;border-collapse:collapse;" COLS=6 WIDTH="100%" cellpadding="0" cellspacing="0">
+<TD style="border: 1px solid #859AD3" BGCOLOR="#004080" WIDTH="29%"><center><font color="#FFFFFF"><b>Company Name</b></font></center></TD>
+<TD style="border: 1px solid #859AD3" BGCOLOR="#004080" WIDTH="8%" align="center"><center><font size="1" face="Arial" color="#FFFFFF">
+A.M. Best<br>ratings<BR>as of<br>02/05/2009</font></center></TD>
+<TD style="border: 1px solid #859AD3" BGCOLOR="#004080" WIDTH="27%"><center><font color="#FFFFFF"><B>Product Name</B></center></TD>
+<TD style="border: 1px solid #859AD3" BGCOLOR="#004080" WIDTH="21%"><center><font color="#FFFFFF"><B>Health Class</B></center></TD>
+<TD style="border: 1px solid #859AD3" BGCOLOR="#004080" WIDTH="12%"><center><font color="#FFFFFF"><B>Premium</B></center></TD>
+<TD style="border: 1px solid #859AD3" BGCOLOR="#004080" WIDTH="5%">&nbsp;</TD>
+</TR>
+</TABLE></CENTER></FONT>
+
+
+<CENTER><TABLE style="border: 1px solid #859AD3;border-collapse:collapse;" COLS=7 WIDTH="100%" cellpadding="1" cellspacing="0">
+
+<!-- IMPORTANT: Within the prodline, the selection code must be included once-->
+
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Genworth Life and Annuity Insurance Co  </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06648 A+ gu (11-6-08)','Genworth Life and Annuity Insurance Co  ','GEAN')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Colony 10                               </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred Best No Nicotine Use</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">73.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">P+</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Genworth Life Insurance Company         </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 07183 A+ gu (11-6-08)','Genworth Life Insurance Company         ','GECA')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Sure Term 10                            </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred Best No Nicotine Use</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">73.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">P+</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Genworth Life and Annuity Insurance Co  </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06648 A+ gu (11-6-08)','Genworth Life and Annuity Insurance Co  ','GEAN')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Colony 10                               </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred No Nicotine Use     </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">79.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Pf</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Genworth Life Insurance Company         </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 07183 A+ gu (11-6-08)','Genworth Life Insurance Company         ','GECA')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Sure Term 10                            </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred No Nicotine Use     </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">79.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Pf</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Genworth Life and Annuity Insurance Co  </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06648 A+ gu (11-6-08)','Genworth Life and Annuity Insurance Co  ','GEAN')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Colony 10                               </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Select No Nicotine Use        </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">87.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">R+</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Genworth Life Insurance Company         </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 07183 A+ gu (11-6-08)','Genworth Life Insurance Company         ','GECA')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Sure Term 10                            </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Select No Nicotine Use        </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">87.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">R+</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Jackson National Life Insurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06596 A+ g (2-15-08)','Jackson National Life Insurance Company ','JACK')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Protector 10-Year Term                  </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred Plus Nontobacco     </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">94.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">P+</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Western Reserve Life Assurance Co of OH </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 07239 A+ g (6-18-08)','Western Reserve Life Assurance Co of OH ','WERE')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">WRL TermPlus - 10 Year                  </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Non-tobacco                   </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">95.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Genworth Life and Annuity Insurance Co  </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06648 A+ gu (11-6-08)','Genworth Life and Annuity Insurance Co  ','GEAN')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Colony 10                               </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Standard No Nicotine Use      </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">98.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Genworth Life Insurance Company         </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 07183 A+ gu (11-6-08)','Genworth Life Insurance Company         ','GECA')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Sure Term 10                            </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Standard No Nicotine Use      </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">98.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">The Paul Revere Life Insurance Company  </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06899 A- g (1-29-08)','The Paul Revere Life Insurance Company  ','PAUL')"><b><font size="2" face="Arial">A-  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Selector 10 - 10 Year Term              </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Non-Smoker</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">100.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Jackson National Life Insurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06596 A+ g (2-15-08)','Jackson National Life Insurance Company ','JACK')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Protector 10-Year Term                  </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred Nontobacco          </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">102.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Pf</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Liberty Life Insurance Company          </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06175 A  (7-9-08)','Liberty Life Insurance Company          ','LIBE')"><b><font size="2" face="Arial">A   </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">RBC ExpressTERM II - 10 Year            </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Non-Tobacco                   </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">103.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Lincoln Benefit Life Company            </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06657 A+ r (10-23-08)','Lincoln Benefit Life Company            ','LNBE')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">TrueTerm - 10 Year                      </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred Elite No-tobacco    </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">105.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">P+</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">American General Life Insurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06058 A g (11-10-08)','American General Life Insurance Company ','AMGE')"><b><font size="2" face="Arial">A   </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">LTG Ultra-C 10                          </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred Plus Non-Tobacco    </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">105.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">P+</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Genworth Life and Annuity Insurance Co  </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06648 A+ gu (11-6-08)','Genworth Life and Annuity Insurance Co  ','GEAN')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Colony 10                               </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Custom No Nicotine Use        </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">106.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Genworth Life Insurance Company         </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 07183 A+ gu (11-6-08)','Genworth Life Insurance Company         ','GECA')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Sure Term 10                            </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Custom No Nicotine Use        </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">106.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Midland National Life Insurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06711 A+ g (1-4-08)','Midland National Life Insurance Company ','MIDT')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Executive Century 2 - 10 Year Term      </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred Plus Non-tobacco    </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">109.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">P+</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Household Life Insurance Company        </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 09129 A+ g (6-12-08)','Household Life Insurance Company        ','HOUS')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Simple Term - 10 Year                   </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">non-tobacco standard          </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">112.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Cincinnati Life Insurance Company       </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06568 A  (12-22-08)','Cincinnati Life Insurance Company       ','CINN')"><b><font size="2" face="Arial">A   </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">LifeHorizons Termsetter 10              </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Ultra Standard Non-Smoker     </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">113.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Western-Southern Life Assurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 09071 A++ g (7-9-08)','Western-Southern Life Assurance Company ','WEST')"><b><font size="2" face="Arial">A++ </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">10-Year Guaranteed Level Term           </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Standard Nontobacco           </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">113.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Jackson National Life Insurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06596 A+ g (2-15-08)','Jackson National Life Insurance Company ','JACK')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Protector 10-Year Term                  </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Nontobacco                    </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">115.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Americo Financial Life and Annuity Ins. </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06233 A- g (9-5-08)','Americo Financial Life and Annuity Ins. ','AMSV')"><b><font size="2" face="Arial">A-  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">SecuriTerm 10                           </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Standard Non-Nicotine         </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">116.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Liberty Life Insurance Company          </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06175 A  (7-9-08)','Liberty Life Insurance Company          ','LIBE')"><b><font size="2" face="Arial">A   </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">RBC ExpressTERM - 10 Year               </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Non-Tobacco                   </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">117.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Midland National Life Insurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06711 A+ g (1-4-08)','Midland National Life Insurance Company ','MIDT')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Executive Century 2 - 10 Year Term      </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred Non-tobacco         </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">118.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Pf</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">American General Life Insurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06058 A g (11-10-08)','American General Life Insurance Company ','AMGE')"><b><font size="2" face="Arial">A   </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">LTG Ultra-C 10                          </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred Non-Tobacco         </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">119.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Pf</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">MTL Insurance Company                   </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06756 A-  (6-18-08)','MTL Insurance Company                   ','MTRU')"><b><font size="2" face="Arial">A-  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">SelecTerm-10                            </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Non-Tobacco                   </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">123.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Stonebridge Life Insurance Company      </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06594 A+ g (6-18-08)','Stonebridge Life Insurance Company      ','STON')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Stonebridge Term - 10 Year              </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Non-tobacco                   </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">124.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Transamerica Life Ins Co  (Family Mkt)  </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06095 A+  (6-18-08)','Transamerica Life Ins Co  (Family Mkt)  ','TRAL')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Ultima Elite Term II - 10 Year          </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Non-tobacco                   </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">124.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Lincoln Benefit Life Company            </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06657 A+ r (10-23-08)','Lincoln Benefit Life Company            ','LNBE')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">TrueTerm - 10 Year                      </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Preferred No-tobacco          </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">125.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Pf</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Midland National Life Insurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06711 A+ g (1-4-08)','Midland National Life Insurance Company ','MIDT')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Executive Century 2 - 10 Year Term      </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Non-tobacco Plus              </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">130.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">R+</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Assurity Life Insurance Company         </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 07374 A-  (9-16-08)','Assurity Life Insurance Company         ','ASSU')"><b><font size="2" face="Arial">A-  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Non Med Term - 10 Year Level            </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Standard Non-Tobacco          </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">135.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">American General Life Insurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06058 A g (11-10-08)','American General Life Insurance Company ','AMGE')"><b><font size="2" face="Arial">A   </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">LTG Ultra-C 10                          </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Standard Plus Non-Tobacco     </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">137.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">R+</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Midland National Life Insurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06711 A+ g (1-4-08)','Midland National Life Insurance Company ','MIDT')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Executive Century 2 - 10 Year Term      </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Non-tobacco                   </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">140.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Lincoln Benefit Life Company            </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06657 A+ r (10-23-08)','Lincoln Benefit Life Company            ','LNBE')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">TrueTerm - 10 Year                      </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Standard Select No-tobacco    </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">142.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">R+</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Fidelity Life Association               </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06386 A-  (5-19-08)','Fidelity Life Association               ','FIDL')"><b><font size="2" face="Arial">A-  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Rapid Decision Term - 10 Year           </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Select  Non-nicotine          </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">153.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Pf</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">American General Life Insurance Company </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06058 A g (11-10-08)','American General Life Insurance Company ','AMGE')"><b><font size="2" face="Arial">A   </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">LTG Ultra-C 10                          </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Standard Non-Tobacco          </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">155.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Lincoln Benefit Life Company            </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06657 A+ r (10-23-08)','Lincoln Benefit Life Company            ','LNBE')"><b><font size="2" face="Arial">A+  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">TrueTerm - 10 Year                      </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Standard No-tobacco           </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">162.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Fidelity Life Association               </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 06386 A-  (5-19-08)','Fidelity Life Association               ','FIDL')"><b><font size="2" face="Arial">A-  </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">Rapid Decision Term - 10 Year           </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Standard Non-nicotine         </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">168.00</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+<TR>
+<TD style="border: 1px solid #859AD3" WIDTH="31%"><font size="2" face="Arial">Nationwide Life & Annuity Co of America </font></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="4%"><a href="javascript:getbest('AMB # 07275 A  (1-27-09)','Nationwide Life & Annuity Co of America ','NATW')"><b><font size="2" face="Arial">A   </font></b></a></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="29%"><font size="2" face="Arial">YourLife(SM) - 10 Year Term             </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="22%"><font size="2" face="Arial">Nontobacco                    </FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="9%"><DIV ALIGN=right><B><font size="3" face="Times New Roman">175.50</font></B></DIV></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="2%"><font size="2" face="Arial" COLOR="#0000FF">Rg</FONT></TD>
+<TD style="border: 1px solid #859AD3" WIDTH="3%"><font size="2" face="Arial" COLOR="#0000FF">gtd</FONT></TD>
+</TR>
+
+</TABLE></CENTER>
+
+<p style="font-family:Arial;font-size:83%;color:black">
+
+
+
+<p>
+<center>
+<INPUT type="submit" name="SideBySide" value="Click Here"><font face="Arial" size="3"><b> for a spreadsheet comparison of the above results.</b></font>
+</FORM>
+</center>
+<p style="font-family:Arial;font-size:83%;color:black"><B><FONT COLOR="#0000FF">While initial premiums are a very important
+
+part of comparing term, the fact is that the cheapest product is not always the
+
+best.  Compulife recommends that you speak with an agent in order to investigate
+
+which products and companies would be best for you.  </FONT></B>
+
+<FORM name="agentform" action ="newzipcode.cgi" method="POST">
+<INPUT type="hidden" name="ZipCode" value="94806">
+<INPUT type="hidden" name="State" value="5">
+<center><p style="font-family:Arial;font-size:83%;color:black"><input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0">
+Click on <INPUT type="submit" value="List of Agents">
+ for the names of 3 Compulife subscribers near you. <input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0"></center>
+</FORM>
+
+
+<CENTER><BR><B><FONT FACE="Arial" size="4" COLOR="#0000FF">Information Regarding the
+
+Above Comparison</FONT></FONT></FONT></B></CENTER>
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">The above results are based upon the following information
+
+that you provided to us.&nbsp; If any of that information is incorrect,
+
+please re-enter the correct information and re-submit.</B>
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">Today's Date is:  <B>February 16th, 2009</B>
+<BR>
+
+<BR>Premiums quoted are for the state of: <B>California</B>
+
+
+<p style="font-family:Arial;font-size:83%;color:black">The comparison is for a total insurance death benefit of  <B>$50,000</B>
+
+
+<p style="font-family:Arial;font-size:83%;color:black">Premiums are based upon a <B>30 year old Male Non-Smoker in
+
+Preferred Plus health</B>.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I>Note:&nbsp; </I></B>Your actual age of 30 is based upon a birthdate
+
+of January 15th 1979.&nbsp; Some companies use your actual age to calculate
+
+premiums, while others use your nearest age.&nbsp; For the purpose of this
+
+comparison, the premiums for companies which use nearest age have
+
+been based upon your <B>nearest age of 30.</B>
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">** and gtd</FONT></I></B> are indicators
+
+that identify whether the premium quoted is guaranteed for the level period
+
+that you are comparing.
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><FONT FACE="Arial,Helvetica"><A HREF="http://www.term4sale.com/consumer.htm">CLICK HERE</A></FONT></FONT></B>
+to read an Important Editorial from Compulife Software President Bob Barney
+titled "<B><FONT COLOR="#0000FF">Evaluating Premium Guarantees</FONT></B>".
+You need to understand the difference between level term plans which
+guarantee the initial premium for the entire level term period and
+those which do not.
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">**</FONT></I></B> - indicates a premium that
+is <B>NOT</B> guaranteed for the level term period.  For this product, the
+life company reserves the right to increase the premium before the end of
+the initial level term period.  Make sure that you ask your agent for
+an authorized life company illustration which will give you more information
+about this premium and what guarantees the company does provide.
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">gtd</FONT></I></B> - indicates a premium that
+is guaranteed for the level term period.
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">P+, Pf, R+, and Rg</FONT></I></B> are indicators
+
+that will help you determine the underwriting (health and lifestyle) criteria
+
+that you will need to satisfy in order to qualify for the premium shown.
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">P+</FONT></I></B> - indicates a rate for
+
+an individual in very preferred (preferred plus) health. A company offering
+
+a P+ premium also offers a preferred (Pf) and a regular (Rg) health premium.
+
+Pf premiums are less difficult to qualify for. Rg premiums are much less
+
+difficult to qualify for.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">Pf</FONT></I></B> - indicates a rate for
+
+an individual in preferred health. A company offering a Pf premium also
+
+offers a regular (Rg) health premium. Rg premiums are less difficult to
+
+qualify for.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">R+</FONT></I></B> - indicates a rate for
+
+an individual in somewhat better health than regular (Rg), but not what
+
+the life insurance industry typically terms "preferred health".
+
+A company offering an R+ premium also offers a regular (Rg) health premium.
+
+Rg premiums are less difficult to qualify for.
+
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">Rg</FONT></I></B> - indicates a rate for
+
+a person in normal health who does not have any medical or lifestyle condition
+
+which would increase their future risk of dying.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">Example:&nbsp; </FONT></I></B>A person who
+
+has moderately elevated blood pressure may not qualify for P+, Pf or R+ premium
+
+rates, but they might qualify for Rg. A private pilot may not qualify for
+
+P+ or Pf premiums, but might qualify for R+ or Rg rates. You will need to speak
+
+to the company or an insurance agent for more details. Premiums quoted
+
+for smokers already take into account that the insured person smokes and
+
+therefore has a greater risk of death than a non-smokers. Premiums offered
+
+to smokers are already higher than those for non-smokers.
+
+
+
+
+
+<CENTER><BR><B><FONT FACE="Arial" size="4" COLOR="#0000FF">Finding
+
+the Best Policy</FONT></FONT></FONT></B></CENTER>
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">The cheapest policy isn't always the best
+
+policy.</FONT></I></B> There are other differences that you should consider before choosing the
+
+company and product that is best for you. Many of those other differences
+
+are subjective. This means that they cannot be compared by simply placing
+
+values side by side on a piece of paper, as we can do with premiums.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">That is why Compulife believes you need
+
+professional advice and guidance in order to sort out the relative importance
+
+of those other factors.</FONT></I></B>
+
+<FORM name="agentform" action ="newzipcode.cgi" method="POST">
+<INPUT type="hidden" name="ZipCode" value="94806">
+<INPUT type="hidden" name="State" value="5">
+<center><p style="font-family:Arial;font-size:83%;color:black"><input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0">
+Click on <INPUT type="submit" value="List of Agents">
+ for the names of 3 Compulife subscribers near you. <input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0"></center>
+</FORM>
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">Compulife Software cannot advise you with respect to specific products
+
+or how they are different from others. Compulife does not have a license
+
+to sell life insurance. Compulife produces and sells a much more complex
+
+term comparison software program to over 3,000 life insurance brokers and
+
+agents throughout the United States and Canada. <B><I><FONT COLOR="#0000FF">Your
+
+best course of action is to locate a properly licensed agent who uses the
+
+Compulife program.</FONT> </I></B>
+
+<FORM name="agentform" action ="newzipcode.cgi" method="POST">
+<INPUT type="hidden" name="ZipCode" value="94806">
+<INPUT type="hidden" name="State" value="5">
+<center><p style="font-family:Arial;font-size:83%;color:black"><input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0">
+Click on <INPUT type="submit" value="List of Agents">
+ for the names of 3 Compulife subscribers near you. <input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0"></center>
+</FORM>
+
+
+<p style="font-family:Arial;font-size:83%;color:black">If you have difficulty obtaining the names of three agents who subscribe to Compulife,
+
+<B><I><FONT COLOR="#000000">please call our office toll-free at (800) 798-3488.
+
+</FONT></I></B>
+
+
+
+<CENTER><BR><B><FONT FACE="Arial" size="4" COLOR="#0000FF">Finding the Best Agent</FONT></FONT></B></CENTER>
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">You cannot buy life insurance without a
+
+life insurance agent</FONT></I></B>.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">Many comparison services on the Internet create the misleading impression
+
+that you can buy term insurance without going through an insurance agent.
+
+While an insurance agent may not come to your home or office, a properly
+
+licensed agent must always be involved in the sale of life insurance. That's
+
+a matter of government licensing and regulation.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">Another mistaken impression given by a number of Internet insurance
+
+comparison services is, "Buy direct and save money". <B><I><FONT COLOR="#0000FF">You
+
+cannot receive a discount in the price of life insurance by avoiding a
+
+life insurance agent.</FONT></I></B>
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">Sales charges and costs (such as commissions) are built into the premium
+
+that you pay for any term policy that you buy. You will be paying those
+
+built-in charges regardless of who you buy the policy from. Finding and
+
+using a local life insurance agent will not cost you more than dealing
+
+with someone in another city or state by telephone or mail.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">Therefore, given that you are already paying the costs of having an
+
+insurance agent provide you with personalized advice and service, Compulife
+
+believes that you should find an agent who can provide you with local service.
+
+If you have a question, or you need help, having a local agent to call
+
+is a big advantage. We also believe it makes sense to support your local
+
+economy.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">There is no guarantee that an agent using Compulife is automatically
+
+the best agent for you. On the other hand, because an agent must pay to
+
+acquire the Compulife service, it is a good indication that the agent has
+
+a sincere interest in multi-company marketing. Many agents sell life insurance
+
+exclusively for one company. They can sell you anything you want, as long
+
+as it's something from that company. Such agents have little reason to
+
+subscribe to a service like Compulife and based upon the comparison that
+
+we have just completed for you, you will realize that it pays to shop and
+
+compare more than one company. An agent that subscribes to Compulife can
+
+do that quickly and easily, and they have access to far more product information
+
+than we provide here.
+
+<FORM name="agentform" action ="newzipcode.cgi" method="POST">
+<INPUT type="hidden" name="ZipCode" value="94806">
+<INPUT type="hidden" name="State" value="5">
+<center><p style="font-family:Arial;font-size:83%;color:black"><input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0">
+Click on <INPUT type="submit" value="List of Agents">
+ for the names of 3 Compulife subscribers near you. <input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0"></center>
+</FORM>
+
+
+<CENTER><BR><B><FONT FACE="Arial" size="4" COLOR="#0000FF">Differences Between Companies
+
+and Products</FONT></FONT></B></CENTER>
+
+
+<p style="font-family:Arial;font-size:83%;color:black">The following is a brief list of some of the other factors that you
+
+will need to consider when comparing products and companies:
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><FONT COLOR="#0000FF">Company Financial Strength</FONT></B> - Not
+
+all life insurance companies are the same. Some are very large financially,
+
+some are small. Some companies are in better financial condition than others.
+
+The longer the level term period, the more important it is to consider
+
+how healthy and strong the life insurance company is. Make sure that you
+
+ask your agent for information about the financial ratings for the companies
+
+that you are considering.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><FONT COLOR="#0000FF">Premium Guarantees</FONT></B> - Are the premiums
+
+for the policy fully guaranteed?  Not all companies fully guarantee the
+
+initial premium for the entire level period. For the purpose of this comparison,
+
+Compulife indicates ** or gtd next to the premium to indicate whether that
+premium is NOT guaranteed or guaranteed.  If two products have the same price,
+but one is guaranteed while the other is not, the guaranteed product would
+be better.  How much extra should you pay for a guarantee?  An agent
+
+using Compulife has access to the tools and additional information that
+can help you decide if a more expensive guarantee is better for you.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><FONT COLOR="#0000FF">Renewal Period</FONT></B> - Most level term
+
+policies have the ability to renew the policy beyond the initial level
+
+premium period. Two products may offer identical premiums for the initial
+
+level period, and yet there may be an enormous difference in renewal costs
+
+beyond the level period.  In addition, Compulife includes in our
+term insurance database, products known in the industry as
+Universal Life.  These "hybrid" U/L products have term-like
+premiums which offer initial guaranteed level
+premiums comparable to the level periods of corresponding guaranteed level
+term policies.  For the intial level period, U/L policies with term-like
+guaranteed premiums provide comparable premium/death benefits as the
+corresponding level term products.  However, the ability to renew those
+U/L policies, and the premiums that you might pay to renew those policies,
+can differ significantly from a corresponding level premium term policy.
+An agent using Compulife has access to that renewal information and can
+provide a year by year future premium printout that lets you compare more
+fully.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><FONT COLOR="#0000FF">Conversion Period</FONT></B> - Many term policies
+
+offer the ability to exchange the term policy for a whole life policy without
+
+having to again medically qualify. Should your health change, and should
+
+you not be able to buy a new policy elsewhere, you may find the conversion
+
+option important. Not all policies offer the same time period for conversion
+
+to take place, and not all give you access to the same types of whole life.
+
+An agent using Compulife has access to more information about that.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><FONT COLOR="#0000FF">Comparing Different Level Periods</FONT></B>
+
+- Should you be buying a 10 year term product, a 20 year term or a 30 year
+
+term? How long do you need the insurance? If you buy a 10 year term, how
+
+will future cost increases after the 10th year compare to a longer level
+
+term plan such as 20 year term? If you only need insurance for 10 years,
+
+you could be wasting your money buying a 20 year term product. You should
+
+discuss why you are buying the insurance with the agent and let them give
+
+you the benefit of their knowledge and experience. The agent may be able
+
+to identify other factors you have not yet considered. A Compulife subscriber
+
+can easily compare, side by side, the future cost of different level term
+
+insurance policies.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><FONT COLOR="#0000FF">Monthly Payment Options</FONT></B> - Many consumers
+
+pay their term insurance premiums on a monthly basis. The least expensive
+
+product based upon the annual premium may not have the lowest monthly,
+
+quarterly or semi-annual premium. Many life insurance companies charge
+
+extra to pay more frequently than annually, and some charge more than others.
+
+Once again, an agent using Compulife has access to that information.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><FONT COLOR="#0000FF">Health Risk Conditions</FONT></B> - Each life
+
+insurance company establishes its own health and lifestyle requirements
+
+to determine what premiums you may qualify for. Slightly high blood pressure
+
+may disqualify you for one company's preferred health premium, but might
+
+be acceptable to obtain another company's preferred health premium. Your
+
+agent will be able to give you more guidance.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><FONT COLOR="#0000FF">Smoking Considerations</FONT></B> - Not all
+
+life companies define smoking the same way. If you have never smoked or
+
+used tobacco products in any way, then a non-smoking comparison will include
+
+products that you can qualify for based upon non-smoking. If you were a
+
+smoker and later quit, then how long ago that you quit may limit your choices.
+
+If you do smoke, some companies may offer products with better premiums
+
+depending on how little you smoke, or whether you smoke cigars or pipe
+
+rather than cigarettes. You will need to discuss all of this with your
+
+agent.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">There are other considerations that you
+
+will want to discuss with your agent.</FONT></I></B>
+
+<FORM name="agentform" action ="newzipcode.cgi" method="POST">
+<INPUT type="hidden" name="ZipCode" value="94806">
+<INPUT type="hidden" name="State" value="5">
+<center><p style="font-family:Arial;font-size:83%;color:black"><input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0">
+Click on <INPUT type="submit" value="List of Agents">
+ for the names of 3 Compulife subscribers near you. <input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0"></center>
+</FORM>
+
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">The point is that price is not the only consideration. Comparing the
+
+advice of more than one agent is your best strategy to sort out the impact
+
+of those other considerations on your final decision.
+
+
+
+<CENTER><BR><B><FONT FACE="Arial" size="4" COLOR="#0000FF">About This Comparison</FONT></FONT></B></CENTER>
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">The information used in this comparison has been taken from the rate
+
+cards and rate manuals which life companies routinely publish and distribute
+
+to life agents and brokers. To the best of Compulife's ability we have
+
+done everything we can to ensure that the information contained in this
+
+comparison is up-to-date and accurate. However, <B><I><FONT COLOR="#0000FF">WE
+
+CANNOT GUARANTEE ACCURACY.</FONT></I></B>
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">In the event that there is a discrepancy between the information contained
+
+in this comparison, and any life company authorized illustration and/or
+
+policy, <B><I><FONT COLOR="#0000FF">the policy shall govern</FONT></I></B>.
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><B><I><FONT COLOR="#0000FF">Note:&nbsp; </FONT></I></B>Any consumer
+
+who is FIRST to discover an error in any of the prices quoted in this comparison
+
+is entitled to receive a "finder's fee" of $50 from Compulife. To receive
+
+your $50 please mail a copy of the comparison which contains the error,
+
+with a copy of the life company illustration and/or policy, together with
+
+your name and address, to:
+
+
+
+<CENTER><BR><B><FONT SIZE=+1>COMPULIFE Software, Inc.</FONT></B></CENTER>
+
+
+
+<CENTER>136 Imperial Way</CENTER>
+
+
+
+<CENTER>Nicholasville, KY 40356</CENTER>
+
+
+
+<CENTER><B><FONT COLOR="#0000FF"><FONT SIZE=+1>(800) 798-3488</FONT></FONT></B></CENTER>
+
+
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">Copyright © 2008, Compulife Software, Inc.
+
+<BR>Compulife ® is a registered trademark of Compulife Software, Inc.
+
+<BR>Term4Sale ® is a registered trademark of Compulife Software, Inc.
+
+
+<CENTER><BR><B><FONT FACE="Arial" size="4" COLOR="#0000FF">Thank You for Visiting Term4Sale</FONT></FONT></B></CENTER>
+
+
+
+<p style="font-family:Arial;font-size:83%;color:black">Compulife thanks you for visiting our web-site. We would encourage you
+
+to tell your relatives and friends about "Term4Sale" which can be found
+
+at either: termforsale.com or term4sale.com
+
+<FORM name="agentform" action ="newzipcode.cgi" method="POST">
+<INPUT type="hidden" name="ZipCode" value="94806">
+<INPUT type="hidden" name="State" value="5">
+<center><p style="font-family:Arial;font-size:83%;color:black"><input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0">
+Click on <INPUT type="submit" value="List of Agents">
+ for the names of 3 Compulife subscribers near you. <input onclick="submit" value="List of Agents" src="/graphics/findagent2.jpg" type="image" border="0"></center>
+</FORM>
+
+
+<p style="font-family:Arial;font-size:83%;color:black"><CENTER>

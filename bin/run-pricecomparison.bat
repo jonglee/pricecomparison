@@ -1,0 +1,3 @@
+set CLASSPATH=build;lib/commons-lang-2.1.jar;lib/jericho-html-2.6.jar;lib/mail.jar;lib/commons-collections-3.1.jar;lib/velocity-1.5.jar;lib/commons-logging-1.0.4.jar;lib/commons-httpclient-3.0.1.jar;lib/thinlet.jar;lib/junit-4.5.jar;lib/commons-codec-1.3.jar;lib/activation.jar
+set JVMARGS=-Xms64m -Xmx256m -XX:MaxPermSize=128m -ea
+java %JVMARGS% -cp %CLASSPATH% -Dcom.selectquote.product.pricecomparison.dev_mode=false com.selectquote.product.ui.Main
